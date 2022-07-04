@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher:400,700&display=swap&subset=cyrillic');
+* {font-family: 'Philosopher', sans-serif;}
+* {
+    padding: 0;
+}
+html {
+    display: table;
+    margin: auto;
+    width: 90%;
+    background-color: #aaa;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #111;
+    margin-bottom: 5px;
+    min-height: 30px;
+    background-color: rgb(255, 200, 200);
+}
+input {
+    margin-right: 10px;
+    border: 2px solid#a7a7a7;
+    border-radius: 50%;
+}
+strong {
+    margin-right: 5px;
+}
+.btn {
+    background-color: rgb(224, 106, 106);
+    margin: auto 5px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #111;
+}
+h1 {
+    text-align: center;
+}
+.done {
+    text-decoration: line-through;
+}
